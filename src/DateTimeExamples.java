@@ -22,7 +22,7 @@ public class DateTimeExamples {
         p(aWeekAgo);
 
         //This doesn't change anything since immutable
-        now = now.minusWeeks(1);
+        now.minusWeeks(1);
         System.out.println();
 
 
